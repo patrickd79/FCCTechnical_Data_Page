@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Python (programming language)</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div id="burger">
+        <div id="line1"></div>
+        <div id="line2"></div>
+        <div id="line3"></div>
+    </div>
+     <div class="nav-div" id="nav-div" >
+        <nav id="navbar">
+            <header id="grid-row0">Python</header>
+            <div id="grid-row1">
+                <a class= "nav-link" href="#Description">Description</a>
+            </div>
+            <div id="grid-row2">
+                <a class= "nav-link" href="#History">History</a>
+            </div>
+            <div id="grid-row3">
+                <a class= "nav-link" href="#Features_and_philosophy">Features and philosophy</a>
+            </div>
+            <div id="grid-row4">
+                <a class= "nav-link" href="#Syntax_and_semantics">Syntax and semantics</a>
+            </div>
+            <div id="grid-row5">
+                <a class= "nav-link" href="#Python_programming_examples">Python programming examples</a>
+            </div>
+            <div id="grid-row6">
+                <a class= "nav-link" href="#Reference">Reference</a>
+            </div>
+        
+        
+    </nav>
+</div>
+<main id="main-doc">
+    
+    <section class="main-section" id="Description">
+        <header><h1>Description</h1></header><br>
+        <p>
+                Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.[28]
+        </p> 
+        <p>       
+                Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Python is often described as a "batteries included" language due to its comprehensive standard library.[29]
+        </p>   
+        <p>     
+                Python was conceived in the late 1980s as a successor to the ABC language. Python 2.0, released in 2000, introduced features like list comprehensions and a garbage collection system capable of collecting reference cycles. Python 3.0, released in 2008, was a major revision of the language that is not completely backward-compatible, and much Python 2 code does not run unmodified on Python 3.
+        </p>
+        <p>      
+                The Python 2 language, i.e. Python 2.7.x, was officially discontinued on 1 January 2020 (first planned for 2015) after which security patches and other improvements will not be released for it.[30][31] With Python 2's end-of-life, only Python 3.5.x[32] and later are supported.
+        </p>   
+        <p>     
+                Python interpreters are available for many operating systems. A global community of programmers develops and maintains CPython, an open source[33] reference implementation. A non-profit organization, the Python Software Foundation, manages and directs resources for Python and CPython development.
+        </p>
+        
+    </section><br>
+
+    <section class="main-section" id="History">
+        <header><h1>History</h1></header><br>
+        <p>Python was conceived in the late 1980s[34] by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC language (itself inspired by SETL),[35] capable of exception handling and interfacing with the Amoeba operating system.[8] Its implementation began in December 1989.[36] Van Rossum shouldered sole responsibility for the project, as the lead developer, until 12 July 2018, when he announced his "permanent vacation" from his responsibilities as Python's Benevolent Dictator For Life, a title the Python community bestowed upon him to reflect his long-term commitment as the project's chief decision-maker.[37] He now shares his leadership as a member of a five-person steering council.[38][39][40] In January 2019, active Python core developers elected Brett Cannon, Nick Coghlan, Barry Warsaw, Carol Willing and Van Rossum to a five-member "Steering Council" to lead the project.[41]</p>
+        <p>Python 2.0 was released on 16 October 2000 with many major new features, including a cycle-detecting garbage collector and support for Unicode.[42]</p>
+        <p>Python 3.0 was released on 3 December 2008. It was a major revision of the language that is not completely backward-compatible.[43] Many of its major features were backported to Python 2.6.x[44] and 2.7.x version series. Releases of Python 3 include the <code>2to3</code> utility, which automates (at least partially) the translation of Python 2 code to Python 3.[45]</p>
+        <p>Python 2.7's end-of-life date was initially set at 2015 then postponed to 2020 out of concern that a large body of existing code could not easily be forward-ported to Python 3.[46][47]</p>
+    </section><br>
+
+    <section class="main-section" id="Features_and_philosophy">
+        <header><h1>Features and philosophy</h1></header><br>
+        <p>Python is a multi-paradigm programming language. Object-oriented programming and structured programming are fully supported, and many of its features support functional programming and aspect-oriented programming (including by metaprogramming[48] and metaobjects (magic methods)).[49] Many other paradigms are supported via extensions, including design by contract[50][51] and logic programming.[52]</p>
+        <p>Python uses dynamic typing and a combination of reference counting and a cycle-detecting garbage collector for memory management. It also features dynamic name resolution (late binding), which binds method and variable names during program execution.</p>
+        <p>Python's design offers some support for functional programming in the Lisp tradition. It has <code>filter</code>, <code>map</code>, and ,<code>reduce</code> functions; list comprehensions, dictionaries, sets, and generator expressions.[53] The standard library has two modules (itertools and functools) that implement functional tools borrowed from Haskell and Standard ML.[54]</p>
+        <p>The language's core philosophy is summarized in the document The Zen of Python (PEP 20), which includes aphorisms such as:[55]
+            <li>Beautiful is better than ugly.</li>
+            <li>Explicit is better than implicit.</li>
+            <li>Simple is better than complex.</li>
+            <li>Complex is better than complicated.</li>
+            <li>Readability counts.</li>
+        </p>
+        <p>Rather than having all of its functionality built into its core, Python was designed to be highly extensible. This compact modularity has made it particularly popular as a means of adding programmable interfaces to existing applications. Van Rossum's vision of a small core language with a large standard library and easily extensible interpreter stemmed from his frustrations with ABC, which espoused the opposite approach.[34]</p>
+        <p>Python strives for a simpler, less-cluttered syntax and grammar while giving developers a choice in their coding methodology. In contrast to Perl's "there is more than one way to do it" motto, Python embraces a "there should be one—and preferably only one—obvious way to do it" design philosophy.[55] Alex Martelli, a Fellow at the Python Software Foundation and Python book author, writes that "To describe something as 'clever' is not considered a compliment in the Python culture."[56]</p>
+        <p>Python's developers strive to avoid premature optimization, and reject patches to non-critical parts of the CPython reference implementation that would offer marginal increases in speed at the cost of clarity.[57] When speed is important, a Python programmer can move time-critical functions to extension modules written in languages such as C, or use PyPy, a just-in-time compiler. Cython is also available, which translates a Python script into C and makes direct C-level API calls into the Python interpreter.</p>
+        <p>An important goal of Python's developers is keeping it fun to use. This is reflected in the language's name—a tribute to the British comedy group Monty Python[58]—and in occasionally playful approaches to tutorials and reference materials, such as examples that refer to spam and eggs (from a famous Monty Python sketch) instead of the standard foo and bar.[59][60]</p>
+        <p>A common neologism in the Python community is pythonic, which can have a wide range of meanings related to program style. To say that code is pythonic is to say that it uses Python idioms well, that it is natural or shows fluency in the language, that it conforms with Python's minimalist philosophy and emphasis on readability. In contrast, code that is difficult to understand or reads like a rough transcription from another programming language is called unpythonic.</p>
+        <p>Users and admirers of Python, especially those considered knowledgeable or experienced, are often referred to as Pythonistas.[61][62]</p>
+    </section><br>
+
+    <section class="main-section" id="Syntax_and_semantics">
+        <header><h1>Syntax and semantics</h1></header><br>
+        <p>Python is meant to be an easily readable language. Its formatting is visually uncluttered, and it often uses English keywords where other languages use punctuation. Unlike many other languages, it does not use curly brackets to delimit blocks, and semicolons after statements are optional. It has fewer syntactic exceptions and special cases than C or Pascal.[63]</p>
+        <h3>Indentation</h3>
+        <p>Python uses whitespace indentation, rather than curly brackets or keywords, to delimit blocks. An increase in indentation comes after certain statements; a decrease in indentation signifies the end of the current block.[64] Thus, the program's visual structure accurately represents the program's semantic structure.[1] This feature is sometimes termed the off-side rule, which some other languages share, but in most languages indentation doesn't have any semantic meaning.</p>
+        <h3>Statements and control flow</h3>
+        <p>Python's statements include (among others):
+            <li>The assignment statement (token '=', the equals sign). This operates differently than in traditional imperative programming languages, and this fundamental mechanism (including the nature of Python's version of variables) illuminates many other features of the language. Assignment in C, e.g., <code>x = 2</code>, translates to "typed variable name x receives a copy of numeric value 2". The (right-hand) value is copied into an allocated storage location for which the (left-hand) variable name is the symbolic address. The memory allocated to the variable is large enough (potentially quite large) for the declared type. In the simplest case of Python assignment, using the same example, <code>x = 2</code>, translates to "(generic) name x receives a reference to a separate, dynamically allocated object of numeric (int) type of value 2." This is termed binding the name to the object. Since the name's storage location doesn't contain the indicated value, it is improper to call it a variable. Names may be subsequently rebound at any time to objects of greatly varying types, including strings, procedures, complex objects with data and methods, etc. Successive assignments of a common value to multiple names, e.g., <code>x = 2</code>; <code>y = 2</code>; <code>z = 2</code> result in allocating storage to (at most) three names and one numeric object, to which all three names are bound. Since a name is a generic reference holder it is unreasonable to associate a fixed data type with it. However at a given time a name will be bound to some object, which will have a type; thus there is dynamic typing.
+            </li>
+            <li>The <code>if</code> statement, which conditionally executes a block of code, along with else and elif (a contraction of else-if).</li>
+            <li>The <code>for</code> statement, which iterates over an iterable object, capturing each element to a local variable for use by the attached block.
+                </li>
+            <li>The <code>while</code> statement, which executes a block of code as long as its condition is true.
+                </li>
+            <li>The <code>try</code> statement, which allows exceptions raised in its attached code block to be caught and handled by <code>except</code> clauses; it also ensures that clean-up code in a <code>finally</code> block will always be run regardless of how the block exits.
+                </li>
+            <li>The <code>raise</code> statement, used to raise a specified exception or re-raise a caught exception.
+                </li>
+            <li>The <code>class</code> statement, which executes a block of code and attaches its local namespace to a class, for use in object-oriented programming.
+                </li>
+            <li>The <code>def</code> statement, which defines a function or method.
+                </li>
+            <li>The <code>with</code> statement, from Python 2.5 released in September 2006,[65] which encloses a code block within a context manager (for example, acquiring a lock before the block of code is run and releasing the lock afterwards, or opening a file and then closing it), allowing Resource Acquisition Is Initialization (RAII)-like behavior and replaces a common try/finally idiom.[66]
+                </li>
+            <li>The <code>break</code> statement, exits from the loop.
+                </li>
+            <li>The <code>continue</code> statement, skips this iteration and continues with the next item.
+                </li>
+            <li>The <code>pass</code> statement, which serves as a NOP. It is syntactically needed to create an empty code block.
+                </li>
+            <li>The <code>assert</code> statement, used during debugging to check for conditions that ought to apply.
+                </li>
+            <li>The <code>yield</code> statement, which returns a value from a generator function. From Python 2.5, yield is also an operator. This form is used to implement coroutines.
+                </li>
+            <li>The <code>import</code> statement, which is used to import modules whose functions or variables can be used in the current program. There are three ways of using import: <code>import <'module name'> [as <'alias'>]</code> or <code>from <'module name'> import *</code> or <code>from <'module name'> import <'definition 1'> [as <'alias 1'>], <'definition 2'> [as <'alias 2'>], ...</code>.
+                </li>
+            <li>The <code>print</code> statement was changed to the <code>print()</code>function in Python 3.</li><br>
+        </p>
+        <p>
+            Python does not support tail call optimization or first-class continuations, and, according to Guido van Rossum, it never will.[67][68] However, better support for coroutine-like functionality is provided in 2.5, by extending Python's generators.[69] Before 2.5, generators were lazy iterators; information was passed unidirectionally out of the generator. From Python 2.5, it is possible to pass information back into a generator function, and from Python 3.3, the information can be passed through multiple stack levels.[70]
+
+        </p>
+        
+        
+    </section><br>
+
+    <section class="main-section" id="Python_programming_examples">
+        <header><h1>Python programming examples</h1></header><br>
+        <p>Hello world program:
+            <br>
+                <code>
+                print('Hello, world!')</code>
+                <br>
+                Program to calculate the factorial of a positive integer:
+                <br>
+                <code>
+                n = int(input('Type a number, then its factorial will be printed: '))
+                <br>
+                
+                if n < 0:
+                    raise ValueError('You must enter a positive number')
+                <br>
+                fact = 1
+                i = 2
+                while i <= n:
+                <br>
+                    fact = fact * i
+                    i += 1
+                <br>
+                print(fact)</code></p>
+    </section><br>
+
+    <section  class="main-section" id="Reference">
+            <header><h1>Reference</h1></header><br>
+            <p>
+                All information on this page is from <a href="https://en.wikipedia.org/wiki/Python_(programming_language)">Wikipedia.</a>
+            </p>
+
+
+
+</body>
+
+
+
+</main>
+<script src="app.js"></script>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
